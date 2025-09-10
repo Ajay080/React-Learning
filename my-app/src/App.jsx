@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Socket from './socket/socket'
+import GCS from './socket/groupChatSocket'
 import './App.css'
 
 function App() {
@@ -9,7 +10,10 @@ function App() {
     <>
     <div>
       <h1>Socket.io Client</h1>
-      <Socket/>
+      {/* <Socket/> */}
+    </div>
+    <div>
+      <GCS/>
     </div>
     </>
   )
