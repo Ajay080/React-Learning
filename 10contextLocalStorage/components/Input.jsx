@@ -6,6 +6,10 @@ const Input=({todo})=>{
     const [disabled, setDisabled]= React.useState(!todo.completed);
     const [val, updatedVal]= useState(todo.task);
 
+    
+
+
+
     return (
         <div>
             <input
